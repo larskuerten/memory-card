@@ -7,10 +7,18 @@ React JS + Vite app from the youtube video :
 - [Yt Pedrotech channel](https://www.youtube.com/@PedroTechnologies)
 - [Build 3 React Projects in 4 Hours | ReactJS Course For Beginners](https://www.youtube.com/watch?v=r47C9c4qCqE)
 
+Obs: This is the first app
+
 ## Topics
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<ul>
+<li>Hooks (useState,useEffect)
+<li>Custom hook (useGameLogic)
+<li>Components
+</ul>
 
-## Expanding the ESLint configuration
+## Further research
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended.
+
+[React dev link](https://react.dev/learn/you-might-not-need-an-effect).
